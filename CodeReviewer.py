@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as ai
 
 # Configure the API key
-ai.configure(api_key="AIzaSyBCkRgwswkl6yfhmhZvUgtue6VDZsa3hSU")
+ai.configure(api_key="GEMINI_API_KEY")
 
 # Streamlit Page Configuration
 st.set_page_config(page_title="AI Code Reviewer")
